@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="event.html">Events</a>
+        <a href="register.html">Register</a>
+    </nav>
+
+    <!-- Registration Form -->
+    <h1>Register Form</h1>
+
+    <form>
+
+        <!-- Username -->
+        <label for="username">Username:</label>
+        <input 
+            type="text" 
+            id="username" 
+            name="username" 
+            placeholder="Enter Username"
+        >
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="Enter Email"
+        >
+        <br><br>
+
+        <!-- Phone -->
+        <label for="phone">Phone:</label>
+        <input 
+            type="tel" 
+            id="phone" 
+            name="phone" 
+            placeholder="enter Your Phone Number"
+        >
+        <br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">D.O.B:</label>
+        <input 
+            type="date" 
+            id="dob" 
+            name="dob"
+        >
+        <br><br>
+
+        <!-- File -->
+        <label for="file">File</label>
+        <input 
+            type="file" 
+            id="file" 
+            name="file"
+        >
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+
+        <input 
+            type="radio" 
+            id="male" 
+            name="gender" 
+            value="male"
+        >
+        <label for="male">Male</label>
+
+        <input 
+            type="radio" 
+            id="female" 
+            name="gender" 
+            value="female"
+        >
+        <label for="female">Female</label>
+
+        <br><br>
+
+        <!-- Experience -->
+        <label for="experience">Experience:</label>
+
+        <select id="experience" name="experience">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+        </select>
+
+        <br><br>
+
+        <!-- Terms and Conditions -->
+        <label for="terms">Terms and condition:</label>
+        <input 
+            type="checkbox" 
+            id="terms" 
+            name="terms"
+        >
+
+        <br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
